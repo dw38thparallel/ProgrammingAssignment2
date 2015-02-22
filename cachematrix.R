@@ -1,8 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions makeCacheMatrix and cacheSolve implement solution to build a matrix
+## and return the inverse of that matrix, using a cached inverse if one exists
 
-## Write a short comment describing this function
-## test change DW
+## Function returns a vector of functions which set and get a matrixa, and set and get the inverse of that matrix
+
 makeCacheMatrix <- function(x = matrix()) {
 
     m <- NULL
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Function returns the inverse of a matrix, using a cached value if one exists
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
